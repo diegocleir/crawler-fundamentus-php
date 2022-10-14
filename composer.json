@@ -1,0 +1,19 @@
+{
+    "name": "diegocleir/fundamentus-php",
+    "description": "Script de consulta dados do site fundamentus.com.br",
+    "type": "project",
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.25"
+    },
+    "authors": [
+        {
+            "name": "Diego Alves",
+            "email": "diegocleir@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    }
+}

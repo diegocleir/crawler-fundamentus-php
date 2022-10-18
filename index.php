@@ -32,7 +32,7 @@ $sheet->setCellValue('H1', "Liquidez");
 $sheet->setCellValue('I1', "QtdeImoveis");
 $sheet->setCellValue('J1', "PrecoM2");
 $sheet->setCellValue('K1', "AluguelM2");
-$sheet->setCellValue('L1', "CapRat");
+$sheet->setCellValue('L1', "CapRate");
 $sheet->setCellValue('M1', "VacanciaMedia");
 $sheet->setCellValue('N1', 'Nome');
 $sheet->setCellValue('O1', 'DataUltimaCotacao');
@@ -84,7 +84,7 @@ for($i = 0; $i < count($fundamentus); $i++){
     $sheet->setCellValue('I' . ($i+2), $fundamentu->getQtdeImoveis());
     $sheet->setCellValue('J' . ($i+2), $fundamentu->getPrecoM2());
     $sheet->setCellValue('K' . ($i+2), $fundamentu->getAluguelM2());
-    $sheet->setCellValue('L' . ($i+2), $fundamentu->getCapRat());
+    $sheet->setCellValue('L' . ($i+2), $fundamentu->getCapRate());
     $sheet->setCellValue('M' . ($i+2), $fundamentu->getVacanciaMedia());
     
     $detalhesFundamentus = $fundamentu->getDetalhes();
